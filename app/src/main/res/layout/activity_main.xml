@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context=".MainActivity"
+    >
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="2000dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:scaleType="centerCrop"
+        android:src="@drawable/bckgnd" />
+
+    <ImageView
+        android:id="@+id/textView"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="33dp"
+        android:src="@drawable/vesit" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/textView"
+        android:layout_marginEnd="45dp"
+        android:layout_marginTop="23dp"
+        android:text="VESIT LIBRARY"
+        android:textColor="@android:color/white"
+        android:textSize="36sp"
+        android:textAlignment="center"/>
+
+    <Button
+        android:id="@+id/scan_btn"
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:layout_below="@+id/textView2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="26dp"
+        android:text="TIME IN"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/timeOut_btn"
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:layout_below="@+id/scan_btn"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="17dp"
+        android:text="TIME OUT"
+        android:textSize="24sp" />
+
+</RelativeLayout>
